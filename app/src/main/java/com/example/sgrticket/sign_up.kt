@@ -16,8 +16,8 @@ class sign_up : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.sign.setOnClickListener {
-            var getSignupp = Intent(applicationContext, MainActivity::class.java)
-            startActivity(getSignupp)
+            var getSignUp = Intent(applicationContext, MainActivity::class.java)
+            startActivity(getSignUp)
         }
 
         binding.log.setOnClickListener {

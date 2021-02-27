@@ -11,73 +11,112 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="275dp"
-        android:src="@drawable/train"
-        android:layout_gravity="top" />
+        android:layout_gravity="top"
+        android:src="@drawable/train" />
+
     <ScrollView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="85dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="21dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="21dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Name"
+                android:textSize="19sp" />
 
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
                 android:inputType="text"
-                android:hint="Name"/>
+                android:paddingTop="35dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Email"
+                android:textSize="19sp" />
+
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
                 android:inputType="text"
-                android:hint="Email"/>
+                android:paddingTop="35dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Phone Number"
+                android:textSize="19sp" />
+
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="50dp"
-                android:inputType="text"
-                android:hint="Phone Number"/>
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:inputType="number"
+                android:paddingTop="35dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Password"
+                android:textSize="19sp" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
                 android:inputType="text"
-                android:hint="Password"/>
+                android:paddingTop="35dp" />
 
 
             <Button
                 android:id="@+id/sign"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="21sp"
-                android:layout_marginLeft="17dp"
-                android:layout_marginRight="17dp"
-                android:text="SIGN UP"/>
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="SIGN UP"
+                android:textSize="21sp" />
 
             <TextView
                 android:id="@+id/log"
-                android:clickable="true"
-                android:paddingBottom="21dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:clickable="true"
                 android:gravity="center"
-                android:textSize="19sp"
-                android:text="Login" />
+                android:paddingBottom="21dp"
+                android:text="Login"
+                android:textSize="19sp" />
         </LinearLayout>
 
 
     </ScrollView>
-
 
 
 </LinearLayout>

@@ -50,9 +50,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.action_settings -> Toast.makeText(applicationContext, "settings was clicked",Toast.LENGTH_SHORT).show()
-            R.id.action_about -> Toast.makeText(applicationContext, "about was clicked",Toast.LENGTH_SHORT).show()
-            R.id.action_quit -> Toast.makeText(applicationContext, "quit was clicked",Toast.LENGTH_SHORT).show()
+            R.id.action_settings -> Toast.makeText(applicationContext, "You clicked on Settings",Toast.LENGTH_SHORT).show()
+            R.id.action_about -> Toast.makeText(applicationContext, "You clicked on About",Toast.LENGTH_SHORT).show()
+            R.id.action_quit -> Toast.makeText(applicationContext, "You clicked on Quit",Toast.LENGTH_SHORT).show()
         }
 
         return super.onOptionsItemSelected(item)
